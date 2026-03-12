@@ -13,7 +13,8 @@
 }
 
 .weather_container {
-    color: #fff;
+    padding-left: 15px;
+    color: white;
 }
 
 .temp {
@@ -30,5 +31,33 @@
 }
 
 nav {
-    height: 50px;
+    height: 100px;
+    margin: 5rem;
+}
+
+.search_area {
+    padding: 1rem;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: transparent;
+    font-size: 1.1rem;
+    border-bottom: 2px solid white;
+    width: 98%;
+}
+
+.search_area::placeholder {
+    color: rgb(180, 178, 178);
+}
+
+nav form button {
+    padding: 0.5rem;
+    background-color: white;
+    margin-top: 1rem;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
 }
